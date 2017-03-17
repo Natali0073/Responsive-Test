@@ -5,6 +5,7 @@ var puctures = ['slide1.jpeg', 'slide2.jpeg', 'slide3.jpeg'];
 var i = 0;
 var inputs = document.querySelectorAll('.picture');
 
+//slide right
 function goRight(){
     ++i;
     if(i>puctures.length-1) i = 0;
@@ -13,6 +14,7 @@ function goRight(){
     inputs[i].checked = true;
 }
 
+//slide left
 function goLeft(){
     --i;
     if(i<0) i = puctures.length-1;
@@ -27,6 +29,7 @@ sel('.slider').addEventListener('touchstart', goRight);
 sel('.left_arrow').addEventListener('click', goLeft);
 
 
+//events on button
 function btnMousedown(){
     sel('.button').style.boxShadow = '-1px -2px 1px #bebdbd';
 }
@@ -40,8 +43,7 @@ sel('.button').addEventListener('mouseup', btnMouseup);
 sel('.button').addEventListener('touchend', btnMouseup);
 
 
-
-
+//slide navigation
 $(function(){
     $('.menu_trigger').click(function(){
         $('.menu').slideToggle(400, function(){
@@ -50,12 +52,4 @@ $(function(){
        $('.content').toggleClass('content-down').css('margin-top','');
    
     });
-//    $('.button').mousedown(function(){
-//        $(this).css('box-shadow', '-1px -2px 1px #bebdbd');
-//    });
-//    
-//    $('.button').mouseup(function(){
-//        $(this).css('box-shadow', '1px 2px 1px #bebdbd');
-//    });
-    
 })
