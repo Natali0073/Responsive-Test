@@ -1,0 +1,327 @@
+/*styles frow width in 1200px to 300px*/
+
+@media screen and (min-width: 801px) and (max-width: 1200px){
+    /*header*/
+    .header_wrapper{
+        width: 770px;
+    }
+    .slider_wrapper{
+        width: 770px;
+    }
+    .slider{
+        width: 770px;
+    }
+    /*header*/
+    
+    /*content and footer*/
+    .content, .content_footer{
+        width: 80%;
+    }
+    .left_block, .center_block{
+        float: left;
+        width: 40%;
+        margin: 30px;
+    }
+    .right_block{
+        float: none;
+        width: 60%;
+        margin: auto;
+    }
+    .right_block:before{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .right_block_pic{
+        height: 220px;
+    }
+    .right_block div{
+        top: 90px
+    }
+    .main_border{
+        height: 9px;
+    }
+    
+    /*footer*/
+    .blog{
+        margin: 20px 0 20px 10px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    /*footer*/
+}
+
+
+
+@media screen and (min-width: 701px) and (max-width: 800px){
+    /*header*/
+    .header_wrapper{
+        width: 90%;
+    }
+    .title{
+        width: 100%;
+    }
+    /*navigation*/
+    .menu_trigger{
+        float: right;
+        display: block;
+        margin-top: -40px;
+    }
+    .nav-expanded{
+        display: block;
+    }
+    nav{
+        width: 100%;
+        margin-top: 10px;
+        float: none;
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    nav ul li:first-child{
+        margin-left: 40px;
+    }
+    .slide-down{
+        top: 0px;
+    }
+    /*slider*/
+    .slider_wrapper{
+        width: 92%;
+        height: 350px;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .slider{
+        width: 100%;
+        height: 350px;
+    }
+    .left_arrow, .right_arrow{
+        display: none;
+    }
+    .inputs{
+        top: 320px;
+    }
+    .inputs input{
+        width: 20px;
+        height: 20px;
+    }
+    /*header*/
+    
+    /*content and footer*/
+    .content{
+        margin-top: 0px;
+    }
+    .button_wrapper{
+        width: 250px;
+    }
+    .button span{
+        left: 30px;
+    }
+    .main_border{
+        height: 3px;
+    }
+    /*text blocks*/
+    .left_block, .center_block, .right_block{
+        float: none;
+        width: 100%;
+        margin: 30px 0 0 0;
+    } 
+    .left_block_pic, .center_block_pic, .right_block_pic{
+        height: 280px;
+    }
+    .left_block_pic div, .center_block_pic div, .right_block_pic div{
+        width: 80%;
+        font-size: 20pt;
+        text-align: center;
+        top: 80px;
+    } 
+    /*content*/
+    
+    /*footer*/
+    .copyright{
+        font-size: 8pt;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 700px){
+    /*header*/
+    .header_wrapper{
+        width: 90%;
+    }
+    .title{
+        width: 100%;
+    }
+    /*navigation*/
+    .menu_trigger{
+        float: right;
+        display: block;
+        margin-top: -30px;
+    }
+    .nav-expanded{
+        display: block;
+    }
+    nav{
+        width: 100%;
+        margin-top: 10px;
+        float: none;
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    nav ul li:first-child{
+        margin-left: 40px;
+    }
+    /*slider*/
+    .slider_wrapper{
+        width: 92%;
+        height: 300px;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .slider{
+        width: 100%;
+        height: 300px;
+    }
+    .left_arrow, .right_arrow{
+        display: none;
+    }
+    .inputs{
+        top: 270px;
+    }
+    .inputs input{
+        width: 20px;
+        height: 20px;
+    }
+    /*header*/
+    
+    /*content and footer*/
+    .content{
+        margin-top: 0px;
+    }
+    .left_block, .center_block, .right_block{
+        float: none;
+        width: 100%;
+        margin: 30px 0 0 0;
+    } 
+    .left_block_pic div, .center_block_pic div, .right_block_pic div{
+        font-size: 20pt;
+        top: 60px;
+    } 
+    .left_block_pic, .center_block_pic, .right_block_pic{
+        height: 200px;
+    }
+    .main_border{
+        height: 7px;
+    }
+    /*content*/
+    
+    /*footer*/
+    .copyright{
+        font-size: 8pt;
+        text-align: center;
+        margin: 20px 0;
+    } 
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    /*header*/
+    .header_wrapper{
+        width: 90%;
+    }
+    .title{
+        width: 100%;
+    }
+    /*navigation*/
+    .menu_trigger{
+        float: right;
+        margin-top: -20px;
+        display: block;
+    }
+    .nav-expanded{
+        display: block;
+        margin-top: 20px;
+    }
+    nav{
+        width: 100%;
+        float: none;
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    nav ul li:first-child{
+        margin-top: 20px;
+    }
+    /*slider*/
+    .slide-down{
+        top: 0px;
+    }
+    .slider_wrapper{
+        width: 92%;
+        height: 200px;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .slider{
+        width: 100%;
+        height: 200px;
+    }
+    .left_arrow, .right_arrow{
+        display: none;
+    }
+    .inputs{
+        width: 70px;
+        top: 170px;
+        margin: auto
+    }
+    .inputs input{
+        width: 20px;
+        height: 20px;
+    }
+    /*slider*/
+    
+    /*content and footer*/
+    .content{
+        margin-top: 0px;
+    }
+    .main_border{
+        height: 4px;
+    }
+    .left_block, .center_block, .right_block{
+        float: none;
+        width: 100%;
+        margin: 30px 0 0 0;
+    } 
+    .copyright{
+        font-size: 8pt;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
