@@ -77,9 +77,6 @@ nav ul li{
     text-shadow: 1px 1px 1px #832f2f;
     cursor: pointer;
 }
-nav ul li:first-child{
-   margin-left: 0px; 
-}
 nav ul li:hover{
     color: #523838;
 }
